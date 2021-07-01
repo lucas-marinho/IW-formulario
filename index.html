@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css"> 
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<nav>
+		<label class="logo"></label>
+        <img src="./img/logo.png" width="250px" height="60px">
+		<ul>
+			<li><a href="/">inicio</a></li>
+			<li><a class="active" href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+			<li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+			<li><a href="https://www.w3schools.com/js/default.asp">JS</a></li>
+			<li><a href="https://www.w3schools.com/">W3SCHOOLS</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<h1>Fale conosco</h1>
+			<p class="centro">Com dúvidas? Preencha o formulário e nos diga o que tem a dizer.</p>
+				<div class="container_form">
+					<form>
+						<div class="formatar">
+							<label>Nome Completo:</label><br>
+							<input type="text">
+						</div>
+						<div class="formatar">
+							<label>Assunto:</label><br>
+							<input type="text">
+						</div>
+						<div class="formatar">
+							<fieldset>
+								<legend>Sexo:</legend>
+									<input type="radio">
+									<label for="Masculino">Masculino</label><br>
+									<input type="radio">
+									<label for="Feminino">Feminino</label><br>
+									<input type="radio">
+									<label for="NBinary">Não-Binário</label><br>
+									<input type="radio">
+									<label for="Other">Prefiro não Dizer</label><br>
+							</fieldset>
+						</div>
+						<div class="formatar">
+							<fieldset>
+								<legend>Idade:</legend>
+									<input type="checkbox">
+									<label for="Menor">-20</label><br>
+									<input type="checkbox">
+									<label for="entre1">Entre 20 e 25</label><br>
+									<input type="checkbox">
+									<label for="entre2">Entre 26 e 30</label><br>
+									<input type="checkbox">
+									<label for="entre3">Entre 31 e 35</label><br>
+									<input type="checkbox">
+									<label for="Maior">+35</label><br>
+							</fieldset>
+						</div>
+						<div class="formatar">
+							<label for="cars">Deixe sua dúvida:</label>
+							<textarea name="message" style="width: 100%; height: 400px;" placeholder="Escreva uma mensagem."></textarea>
+						</div>
+						<div class="formatar">
+							<input type="submit" value="Enviar">
+						</div>
+					</form>
+				</div>
+	</div>
+	<footer><p class="centro">RODAPÉ</p></footer>
+</body>
+</html>
